@@ -802,7 +802,7 @@ welcome
 
 @media (max-width: 991px) {
   .welcome-area .header-text {
-    top: 60% !important;
+    top: 40% !important;
     transform: perspective(1px) translateY(-60%) !important;
   }
   .welcome-area .header-text h1 {
@@ -851,7 +851,41 @@ welcome
     font-weight: 600;
     font-size: 24px !important;
     line-height: 30px !important;
-    margin-bottom: 10px !important;
+    margin-bottom: 0px !important;
+  }
+  .welcome-area .header-text h1 span {
+    color: #fff;
+  }
+  .welcome-area .header-text p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  .welcome-area .header-text img {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 466px) {
+  .welcome-area {
+    margin-bottom: 100px;
+  }
+  .welcome-area .header-text {
+    top: 80% !important;
+    transform: perspective(1px) translateY(-50%) !important;
+    text-align: center;
+  }
+  .welcome-area .header-text .buttons {
+    display: none;
+  }
+  .welcome-area .header-text h1 {
+    font-weight: 600;
+    font-size: 24px !important;
+    line-height: 30px !important;
+    margin-bottom: 0px !important;
   }
   .welcome-area .header-text h1 span {
     color: #fff;
