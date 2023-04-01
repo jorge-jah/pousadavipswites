@@ -911,6 +911,15 @@ welcome
   #reserva {
     padding: 10px 0px;
   }
+
+  .section-contato{
+    padding-top: 80px;
+  }
+
+  .copyright-contato {
+    padding-top: 30px;
+    text-align: center;
+  }
   
 }
 
