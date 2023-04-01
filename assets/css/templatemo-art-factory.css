@@ -906,7 +906,12 @@ welcome
   .section-name {
     text-align: center;
     padding-bottom: 50px;
-  }  
+  }
+
+  #reserva {
+    padding: 120px 0px;
+  }
+  
 }
 
 /*
@@ -1283,7 +1288,7 @@ reserva
 
 
 #reserva {
-  padding: 120px 0px;
+  padding: 20px 0px;
 }
 
 #reserva .right-image {
