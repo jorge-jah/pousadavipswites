@@ -1593,7 +1593,8 @@ section-contato
 } */
 
 .section-contato hr {
-  background-color: #F59D7E;
+  /* background-color: #F59D7E; */
+  background-color: #F9BBa6;
 }
 
 .section-contato h6 {
