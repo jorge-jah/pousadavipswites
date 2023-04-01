@@ -221,6 +221,7 @@ a.main-button-slider {
   border-radius: 20px;
   padding: 12px 20px;
   /* background-color: #034ea4; */
+  /* background-color: #0FC871A; */
   background-color: #7ba1cc;
   text-transform: uppercase;
   color: #fff;
@@ -901,6 +902,11 @@ welcome
     width: 80%;
     margin-top: 20px;
   }
+
+  .section-name {
+    text-align: center;
+    padding-bottom: 50px;
+  }  
 }
 
 /*
@@ -1567,6 +1573,56 @@ contact
   font-size: 0.9rem;
 }
 
+/*
+--------------------------------------------
+section-contato
+--------------------------------------------
+*/
+
+.section-contato {
+  width: auto;
+  margin-top: 22em;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #034ea4;
+  color: #fff;
+}
+
+/* .column-contato{
+  display: flex;
+} */
+
+.section-contato hr {
+  background-color: #F59D7E;
+}
+
+.section-contato h6 {
+  margin-top: 10px;
+  /* margin-left: 20px; */
+}
+
+.section-contato p {
+  color: #FFF;
+  font-size: 16px;
+}
+
+.section-contato a{
+  color: #FFF;
+}
+
+.space{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.icon-social{
+  /* padding-left: 10px; */
+  padding-right: 10px;
+}
+
+.copyright-contato {
+  text-align: center;
+}
 
 /* 
 ---------------------------------------------
@@ -1575,12 +1631,14 @@ footer
 */
 footer {
   background-color: #fff;
-  padding: 60px 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 footer .social {
   overflow: hidden;
-  text-align: right;
+  text-align: center;
+  margin-top: 10em;
 }
 
 footer .social li {
@@ -1610,7 +1668,7 @@ footer .social li a:hover {
 }
 
 footer .copyright {
-  margin-top: 10px;
+  /* margin-top: 4px; */
   font-weight: 400;
   font-size: 15px;
   color: #4a4a4a;
@@ -1726,7 +1784,7 @@ preloader
 
 .center-heading {
   text-align: center;
-  padding-bottom: 2rem;
+  /* padding-bottom: 1rem; */
   margin-top: 30px;
 }
 
